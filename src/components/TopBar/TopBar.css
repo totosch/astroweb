@@ -1,0 +1,32 @@
+/* TopBar.scss */
+.top-bar {
+  position: sticky;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #333;
+  padding: 10px 20px;
+}
+
+.activity-image {
+  background-color: transparent;
+  width: 50px;
+  height: auto;
+}
+
+.nav-links {
+  display: flex;
+  justify-content: center; 
+  align-items: center;
+  gap: 50px;
+  flex: 1; 
+}
+
+.nav-link {
+  color: white;
+  font-size: 18px;
+  text-decoration: none;
+  &:hover {
+      text-decoration: underline;
+  }
+}
