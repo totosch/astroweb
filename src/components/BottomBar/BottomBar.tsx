@@ -15,7 +15,7 @@ const BottomBar = () => {
       <div className="Socials-box">
         <h2>Socials</h2>
         <div className="nav-links">
-          <Link to="instagram.com/roschillaci_" className="nav-link">Instagram</Link>
+        <Link to="https://www.instagram.com/roschillaci_" className="nav-link">Instagram</Link>
         </div>
       </div>
     </footer>

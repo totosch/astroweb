@@ -11,9 +11,9 @@
         opacity: 0.6;
         position: absolute;
         left: 0;
-        top: -30%;
         width: 100%;
         height: auto;
+        max-height: 80vh;
     }
     
     .home-image-content {

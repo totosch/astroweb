@@ -6,11 +6,13 @@
   align-items: center;
   background-color: #333;
   padding: 10px 20px;
+  height: 32px;
 }
 
 .activity-image {
   background-color: transparent;
-  width: 50px;
+  position: absolute;
+  width: 48px;
   height: auto;
 }
 
@@ -18,7 +20,7 @@
   display: flex;
   justify-content: center; 
   align-items: center;
-  gap: 50px;
+  gap: 48px;
   flex: 1; 
 }
 
