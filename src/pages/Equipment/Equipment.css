@@ -5,7 +5,8 @@
   }
 
   .carousel-container {
-    margin: auto 0;
+    display: flex;
+    justify-content: center;
   }
 
   .equipment-image {

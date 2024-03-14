@@ -1,4 +1,4 @@
-import './Equipment.css';
+import "./Equipment.css";
 
 import ExplorerBackground from "../../assets/equipment/150750.png";
 import DobsonianBackground from "../../assets/equipment/dob200.png";
@@ -11,7 +11,7 @@ const Equipment = () => {
   const images = [
     { image: ExplorerBackground },
     { image: DobsonianBackground },
-    { image: EspiritBackground }
+    { image: EspiritBackground },
   ];
 
   return (
@@ -25,9 +25,7 @@ const Equipment = () => {
       <div className="comment-text">
         <h2>Dream Telescopes</h2>
       </div>
-      <div className="carousel-container">
-        <Carousel images={images} />
-      </div>      
+      <Carousel images={images} />
     </div>
   );
 };

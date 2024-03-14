@@ -22,10 +22,10 @@ const Carousel = ({ images }: CarouselProps) => {
 
   return (
     <div className="carousel-container">
+      <img src={images[imageIndex].image} alt={`Image ${imageIndex}`} className="carousel-image" />
       <button className="carousel-button left-button" onClick={goToPreviousImage}>
         {" < "}
       </button>
-      <img src={images[imageIndex].image} alt={`Image ${imageIndex}`} className="carousel-image" />
       <button className="carousel-button right-button" onClick={goToNextImage}>
         {" > "}
       </button>

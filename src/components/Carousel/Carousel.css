@@ -1,3 +1,15 @@
+.carousel-container {
+  position: relative;
+  display: flex;
+  justify-content: center;
+  display: flex;
+  color: white;
+  width: 800px;
+  height: 400px;
+  margin: 0 auto;
+  padding-bottom: 20px;
+}
+
 .carousel-button {
   background-color: rgba(0, 0, 0, 0.5);
   color: white;
@@ -7,6 +19,10 @@
   border-radius: 50%;
   font-size: 20px;
   transition: background-color 0.3s ease;  
+  width: 48px;
+  line-height: 0px;
+  margin-right: 8px;
+  height: 48px;
 }
 
 .carousel-button:hover {
@@ -14,16 +30,19 @@
 }
 
 .left-button {
-  margin-right: 8px;
+  position: absolute;
+  top: 50%;
+  left: 0;
 }
 
 .right-button {
-  margin-left: 8px;
+  position: absolute;
+  top: 50%;
+  right: 0;
 }
 
 .carousel-image {
   opacity: 0.9;
-  width: 24%;
-  height: auto;
-  max-height: 24%;
+  object-fit: fill;
+  width: 100%;
 }
