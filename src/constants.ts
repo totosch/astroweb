@@ -1,5 +1,5 @@
 export const ROUTES = {
-    HOME: '/',
+    HOME: '/astroweb',
     EQUIPMENT: '/equipment',
     TARGETS: '/targets'
   };
