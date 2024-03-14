@@ -10,7 +10,7 @@ interface TopBarProps {
       <div className="top-bar">
         <img src={image} className="activity-image" />
         <div className="nav-links">
-          <Link to="/" className="nav-link">Home</Link> 
+          <Link to="/astroweb" className="nav-link">Home</Link> 
           <Link to="/equipment" className="nav-link">Equipment</Link>
           <Link to="/targets" className="nav-link">Targets</Link>
         </div>
